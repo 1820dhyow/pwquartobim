@@ -3,6 +3,7 @@
   <persistence-unit name="mysqlPU" transaction-type="RESOURCE_LOCAL">
     <provider>org.hibernate.ejb.HibernatePersistence</provider>
     <class>entidade.Estado</class>
+    <class>entidade.Usuario</class>
     <exclude-unlisted-classes>false</exclude-unlisted-classes>
     <properties>
       <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/banco?zeroDateTimeBehavior=convertToNull"/>
